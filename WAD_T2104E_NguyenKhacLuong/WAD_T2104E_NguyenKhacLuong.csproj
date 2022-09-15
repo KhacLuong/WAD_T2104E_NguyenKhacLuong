@@ -160,6 +160,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\data.sql" />
+    <Content Include="App_Data\DB_T2104E_NguyenKhacLuong.mdf" />
+    <Content Include="App_Data\DB_T2104E_NguyenKhacLuong_log.ldf">
+      <DependentUpon>DB_T2104E_NguyenKhacLuong.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
